@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation"
+    app:startDestination="@+id/nav_home">
+
+    <fragment
+        android:id="@+id/nav_home"
+        android:name="com.example.app8.ui.home.HomeFragment"
+        android:label="@string/menu_home"
+        tools:layout="@layout/fragment_home" />
+
+    <fragment
+        android:id="@+id/nav_gallery"
+        android:name="com.example.app8.ui.gallery.GalleryFragment"
+        android:label="@string/menu_gallery"
+        tools:layout="@layout/fragment_gallery" />
+
+    <fragment
+        android:id="@+id/nav_slideshow"
+        android:name="com.example.app8.ui.slideshow.SlideshowFragment"
+        android:label="@string/menu_slideshow"
+        tools:layout="@layout/fragment_slideshow" />
+
+    <fragment
+        android:id="@+id/nav_insert"
+        android:name="com.example.app8.ui.insert.InsertFragment"
+        android:label="@string/menu_insert"
+        tools:layout="@layout/content_insert" />
+
+    <fragment
+        android:id="@+id/nav_delete"
+        android:name="com.example.app8.ui.delete.DeleteFragment"
+        android:label="@string/menu_delete"
+        tools:layout="@layout/content_delete" />
+
+    <fragment
+        android:id="@+id/nav_results"
+        android:name="com.example.app8.ui.results.ResultsFragment"
+        android:label="@string/menu_results"
+        tools:layout="@layout/content_results" />
+
+    <fragment
+        android:id="@+id/nav_search"
+        android:name="com.example.app8.ui.search.SearchFragment"
+        android:label="@string/menu_search"
+        tools:layout="@layout/content_search" />
+
+</navigation>
